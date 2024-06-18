@@ -1,0 +1,101 @@
+body {
+    font-family: Times New Roman, serif;
+    background-color: #ffe4e1;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffc0cb;
+    color: #FFFFFF;
+    padding: 15px 0;
+    text-align: right;
+}
+.page-title {
+    float: left;
+    font-family: "Poor Richard", cursive;
+    font-size: 22px;
+}
+.page-title::after {
+    content: "\2665"; 
+    margin-left: 5px; 
+    font-size: 20px; 
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.date {
+        color: white;
+        text-align: right;
+        margin-right: 20px;
+      }
+h1 {
+    color: white; 
+    margin-top: 20px; 
+    text-align: center;
+}
+p {
+    text-align: center; 
+    color: white;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #ffc0cb;
+    color: #FFFFFF;
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+.big-text {
+    text-align: center; 
+    font-size: 72px; 
+    font-weight: bold; 
+    color: white; 
+ }   
+ .image-container {
+          text-align: center; 
+          margin-bottom: 20px; 
+ }
+
+.image-container img {
+          width: 80%; 
+          height: auto; 
+          border-radius: 10px; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+          margin: 0 auto; 
+          display: block; 
+ }
+ p {
+    text-align: center; 
+    font-size: 24px; 
+    color: white;
+}
+ hr.short-line {
+      width: 80%;
+      margin: 20px auto;
+      border: 0;
+      border-top: 2px solid #ffc0cb;
+    }
+ #visit-count {
+            color: white;
+            text-align: right;
+            margin-right: 20px;
+    }

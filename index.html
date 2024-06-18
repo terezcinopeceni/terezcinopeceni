@@ -1,0 +1,161 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=wins 1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title>Terezèino peèení</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <header>
+       <div class="page-title">TEREZÈINO PEÈENÍ</div>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <nav>
+            <ul>
+                <li><a href="#">Domù</a></li>
+                <li><a href="C:\Users\pc\Desktop\konecna\recepty.html">Recepty</a></li>
+                <li><a href="omne.html">O mnì</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+     <div class="date" id="date"></div>
+    <div style="text-align:center;" id="visit-count"></div>
+    <script language="javascript" type="text/javascript">
+        function updateDateTime() {
+            var datum = new Date();
+            var den = datum.getDate();
+            var mesic = datum.getMonth() + 1;
+            var rok = datum.getFullYear();
+            var hodina = datum.getHours();
+            var minuta = datum.getMinutes();
+            var sekunda = datum.getSeconds();
+
+            if (minuta < 10) minuta = '0' + minuta;
+            if (sekunda < 10) sekunda = '0' + sekunda;
+
+            var dateTimeString = "<strong>Dnešní datum: " + den + "/" + mesic + "/" + rok + " " + hodina + ":" + minuta + ":" + sekunda + "</strong>";
+            document.getElementById("date").innerHTML = dateTimeString;
+        }
+
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+
+        function updateVisitCount() {
+            if (typeof(Storage) !== "undefined") {
+                if (localStorage.visitCount) {
+                    localStorage.visitCount = Number(localStorage.visitCount) + 1;
+                } else {
+                    localStorage.visitCount = 1;
+                }
+                document.getElementById("visit-count").innerHTML = "Poèet návštìv: " + localStorage.visitCount;
+            } else {
+                document.getElementById("visit-count").innerHTML = "Poèet návštìv nelze zjistit";
+            }
+        }
+
+        updateVisitCount();
+    </script>
+    <main>
+        <h1>Vítejte na mých stránkách o peèení!</h1>
+        <br>
+        <br>
+        <p>Zde naleznete spoustu skvìlých receptù a tipù.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="big-text">VÍTEJTE!</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="image-container">
+            <img src="C:\Users\pc\Desktop\konecna\images\makronky.jpg" alt="makronky">
+        <br>
+        <p>MAKRONKY</p>
+        <br>
+        <br>
+        <br>
+    </main>
+     <br>
+     <br>
+    <hr class="short-line">
+     <br>
+     <br>
+  <h1 style="text-align:center; color: white">Co by sis chtìl upéct?</h3>
+  <br>
+    <map name="muffiny">
+  <area href="C:\Users\pc\Desktop\konecna\muffiny.html" coords="0,2,797,282" shape="rect">
+  </map>
+  <p align="center">
+    <img src="C:\Users\pc\Desktop\konecna\images\muffiny.jpg" alt="muffiny" usemap=#muffiny>
+  </p>
+  <map name="cookies">
+    <area href="C:\Users\pc\Desktop\konecna\cookies.html" coords="0,2,797,282" shape="rect">
+  </map>
+  <p align="center">
+    <img src="C:\Users\pc\Desktop\konecna\images\cookies.jpg" alt="cookies" usemap=#cookies>
+  </p>
+  <map name="zaviny">
+    <area href="C:\Users\pc\Desktop\konecna\zavin.html" coords="0,2,797,282" shape="rect">
+  </map>
+  <p align="center">
+    <img src="C:\Users\pc\Desktop\konecna\images\záviny.jpg" alt="záviny" usemap=#zaviny>
+  </p>
+  <map name="buchty">
+    <area href="C:\Users\pc\Desktop\konecna\buchty.html" coords="0,2,797,282" shape="rect">
+  </map>
+  <p align="center">
+    <img src="C:\Users\pc\Desktop\konecna\images\buchty.jpg" alt="buchty" usemap=#buchty>
+  </p>
+  <map name="kolace">
+    <area href="C:\Users\pc\Desktop\konecna\kolace.html" coords="0,2,797,282" shape="rect">
+  </map>
+  <p align="center">
+     <img src="C:\Users\pc\Desktop\konecna\images\koláèe.jpg" alt="koláèe" usemap=#kolace>
+  <br>
+  <br>
+  <hr class="short-line">
+  <br>
+  <br>
+  <p>Moje inspirace</p>
+   <div class="video-container" style="text-align:center;">   
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/y-g6LahiR28" frameborder="0" allowfullscreen></iframe>  
+   </div> 
+   <br>
+  <br>
+  <hr class="short-line">
+  <br>
+  <br>
+  <div style="text-align:center;">           
+    <img src="C:\Users\pc\Desktop\konecna\images\cupcakes.gif" alt="pekar">            
+    <p>Peèení je zábava!</p>        
+   </div>
+   <map name="domu">
+    <area href="C:\Users\pc\Desktop\konecna\recepty.html" coords="0,2,279,301" shape="rect">
+  </map>
+  <p align="center">
+    <img src="C:\Users\pc\Desktop\konecna\images\cooking.png" alt="recepty" usemap=#domu style="width:10%;">
+  </p>
+  </body>
+</html>
